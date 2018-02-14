@@ -1,0 +1,34 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "it.januszwisniowski.jhipsterpresentation.examples.microservices.gateway",
+      "microservicePath": "../bookstore"
+    },
+    "jhipsterVersion": "4.14.0",
+    "baseName": "gateway",
+    "packageName": "it.januszwisniowski.jhipsterpresentation.examples.microservices.gateway",
+    "packageFolder": "it/januszwisniowski/jhipsterpresentation/examples/microservices/gateway",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "7e9f5619a69b1af483fe27fc1138064159ae8557",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "applicationType": "gateway",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": false
+  }
+}

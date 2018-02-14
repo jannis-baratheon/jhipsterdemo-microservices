@@ -1,0 +1,32 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "it.januszwisniowski.jhipsterpresentation.examples.microservices.bookstore"
+    },
+    "jhipsterVersion": "4.14.0",
+    "baseName": "bookstore",
+    "packageName": "it.januszwisniowski.jhipsterpresentation.examples.microservices.bookstore",
+    "packageFolder": "it/januszwisniowski/jhipsterpresentation/examples/microservices/bookstore",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "fd93dc66fa3250b1ff5957c4c3faf88c51b1fe7a",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "yarn",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
