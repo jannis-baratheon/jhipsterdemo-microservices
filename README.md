@@ -6,17 +6,17 @@
 
 # Running
 
-1. Service discovery and settings repository (run in `jhipster-registry` directory):
+1. Service discovery and settings repository (run in [jhipster-registry](jhipster-registry) directory):
 
         docker-compose -f jhipster-registr.yml up
 
 
-1. Bookstore microservice (run in `bookstore` directory):
+1. Bookstore microservice (run in [bookstore](bookstore) directory):
 
         ./mvnw
 
 
-1. Microservice gateway (run in `gateway` directory):
+1. Microservice gateway (run in [gateway](gateway) directory):
 
         yarn
         yarn webpack:build
